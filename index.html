@@ -103,7 +103,7 @@
 	}
 	.par {
 		font-size: 20px;
-		margin-left: 200px;
+		/* margin-left: ; */
 
 	}
 
@@ -177,7 +177,7 @@
 		line-height: 120%;
 		font-weight: 800;
 		line-height: 120%;
-		margin-left: 200px;
+		margin-left: ;
 		display: flex;
 	}
 	.str {
@@ -185,7 +185,7 @@
 		padding-left: 5px;
 		font-family: 'Open Sans' sans-serif;
 		width: 100%;
-		margin-left: 200px;
+		margin-left: ;
 		font-weight: 200;
 		font-size: 37.9px;
 		padding-bottom: 10px;
@@ -217,7 +217,7 @@
 		position: absolute;
 		top: 45%;
 		right: 0;
-		left: 200px;
+		left: ;
 	}
 	.intro {
 		height: 100vh;
@@ -261,6 +261,13 @@
 		color: #fff;
 		padding-left: 5px;
 	}
+.text-container {
+	flex: 1;
+	padding: 175px;
+}
+.text-container-right {
+	flex: 1;
+}
 	/*Buttons*/
 
 	.butn {
@@ -281,10 +288,6 @@
 
 	.butn:hover {
 		background-color: transparent;
-	}
-
-	.btn--blk {
-		background: #000;
 	}
 
 	.btn--blk:hover {
@@ -313,16 +316,6 @@
 		color: white;
 	}
 
-	.btn--pink2 {
-		background: black;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
-		color: white;
-	}
-
-	.btn--pink2:hover {
-		background: #4E3EB1;
-	}
-
 	.butn--lightblue {
 		background-color: #0D8CFF;
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
@@ -339,14 +332,6 @@
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
 	}
 
-	.btn--black {
-		color: #000;
-		background: #000000;
-	}
-
-	.butn--white:hover {
-		background: #eee;
-	}
 /* Footer Content */
 	.footerBlue {
 		background: #0000FF;
@@ -360,6 +345,8 @@
 	}
 	.img {
 		max-width: 100%;
+		flex: 1;
+		padding: 100px;
 	}
 	.footercontent {
 		display: flex;
@@ -408,6 +395,8 @@
 	.footerRow1 {
 		display: flex;
 		justify-content: center;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.h3 {
 		font-weight: 200;
@@ -488,8 +477,10 @@
 <!--Section BusyBus -->
 
 <section class="BusyBus purple">
-	<img src="images/BusyBus.png" height="421" width="277" alt="BusyBus" style="margin: 200px;">
-			<div class="text-container">
+	<div class="text-container">
+	<img src="images/BusyBus.png" height="421" width="277" alt="BusyBus">
+</div>
+			<div class="text-container-right">
 				<h3><div class="str" style="font-family: 'Open Sans'; font-weight: bold">BusyBus</div></h3>
 
 				<p class="header3" style="font-family: 'Open Sans'; font-weight: bold">Important bus <br> info at your<br> fingertips.</p>
@@ -511,7 +502,7 @@
 			<a  href="https://jazzy-bloc-jams.netlify.com/" class="butn butn--lightblue">View Prototype</a></div>
 		</div>
 
-		<div><img src="images/laptop1x.png" height="326px" width="520px" alt="" style="margin:200px">
+		<div><img src="images/laptop1x.png" height="326px" width="520px" alt="">
 		</div>
 
 	</div>
