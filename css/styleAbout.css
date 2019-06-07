@@ -273,68 +273,6 @@
 }
 	/*Buttons*/
 
-	.butn {
-		display: inline-block;
-		vertical-align: middle;
-		text-align: center;
-		cursor: pointer;
-		font-weight: 600;
-		font-size: 16px;
-		color: #ffffff;
-		font-family: 'Open Sans';
-		text-transform: uppercase;
-		border-radius: 3px;
-		padding: 15px 40px;
-		margin-top: 20px;
-		text-decoration: none;
-	}
-
-	.butn:hover {
-		background-color: transparent;
-	}
-
-	.btn--blk:hover {
-		background: #4E3EB1;
-	}
-
-	.butn--purple {
-		background: #910DFF;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
-		color: #ffffff;
-		font-family: 'Open Sans';
-
-	}
-
-	.butn--purple:hover {
-		background: #910DFF 50%;
-	}
-
-	.btn--blue2{
-		background: white;
-		color: black;
-	}
-
-	.btn--blue2:hover {
-		background: #4E3EB1;
-		color: white;
-	}
-
-	.butn--lightblue {
-		background-color: #0D8CFF;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
-		font-family: 'Open Sans';
-	}
-
-	.butn--lightblue:hover {
-		background: #0D8CFF 50%;
-	}
-
-	.butn--white {
-		color: #4DD6FE;
-		background: #fff;
-		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
-	}
-
 /* Footer Content */
 	.footerBlue {
 		background: #0000FF;
