@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+	*,
+	*:before,
+	*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+	/* reset CSS
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	.container {
+		display: flex;
+	}
+	.container-nav {
+		display: flex;
+		justify-content: flex-end;
+
+	}
+	.topnav1 {
+		display: flex;
+		flex-grow: 1;
+	}
+	.topnav2 {
+		display: flex;
+
+	}
+	.lightblue {
+		background: #0D8CFF;
+		display: flex;
+		color: #ffffff;
+	}
+	.topspin {
+		display: flex;
+		align-items: center;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		height: 100vh;
+	}
+	.BusyBus {
+		display: flex;
+		align-items: center;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		height: 100vh;
+	}
+	.jazzyBloc {
+		display: flex;
+		align-items: center;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		height: 100vh;
+	}
+	.purple {
+		background: #910DFF;
+		color: #ffffff;
+	}
+	.darkPurple{
+		background-color: #480CE8;
+		color: #ffffff;
+	}
+	.par {
+		font-size: 20px;
+		/* margin-left: ; */
+
+	}
+
+	.body {
+		min-width: 320px;
+		background: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		line-height: 1.3;
+		color: #ffffff;
+	}
+	.link {
+		min-width: 320px;
+		background: inherit;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		line-height: 1.3;
+		color: #fff;
+	}
+	.topnav {
+		display: flex;
+		justify-content: flex-end;
+		padding: 14px 16px;
+		padding-top: 35px;
+		padding-bottom: 25px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.nav {
+		display: flex;
+		text-align: center;
+		float: right;
+		right: 0;
+		left: 0;
+		top: 100%;
+		opacity: 1;
+		font color: #ffffff;
+		padding-top: 35px;
+		padding-left: 10px;
+		padding-right: 10px;
+    padding-bottom: 25px;
+	}
+	.nav-link {
+		color: #ffffff;
+		font-size: 18px
+	}
+	nav:hover {
+		color: black;
+	}
+	.darkBlue {
+		background: #034AA6 100%;
+		font color: #fff;
+
+	}
+	.a {
+		color: inherit;
+		text-decoration: none;
+		font-weight: bold;
+		opacity: 1;
+		transition: opacity .3s;
+	}
+	a:hover {
+		text-decoration: none;
+		opacity: .8;
+		color: #000000;
+		text-decoration: none;
+	}
+	.header3 {
+		font-size: 60px;
+		letter-spacing: -0.032em;
+		line-height: 120%;
+		font-weight: 800;
+		line-height: 120%;
+		margin-left: ;
+		display: flex;
+	}
+	.str {
+		text-align: left;
+		padding-left: 5px;
+		font-family: 'Open Sans' sans-serif;
+		width: 100%;
+		margin-left: ;
+		font-weight: 200;
+		font-size: 37.9px;
+		padding-bottom: 10px;
+		display: flex;
+	}
+
+	h4 {
+		font-size: 36px;
+		letter-spacing: -0.055em;
+	}
+	.logo {
+		background-image: url(images/face.png);
+		background: #034AA6 100%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		width: 36px;
+		height: 60px;
+		font-size: 0;
+		line-height: 0;
+		margin-left: 200px;
+		margin-top: 35px;
+	}
+
+	h1,
+	h6 {
+		font-family: 'Open Sans';
+		font-weight: 800;
+		text-align: left;
+		position: absolute;
+		top: 45%;
+		right: 0;
+		left: ;
+	}
+	.intro {
+		height: 100vh;
+		min-height: 400px;
+		background: #034AA6 100%;
+		background-size: cover;
+		color: #ffff;
+		font-size: 40px;
+		color: #fff;
+	}
+	.intro .intro__content {
+		position: absolute;
+		display: flex;
+		top: 50%; left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+		width: 100%;
+		letter-spacing: -0.001em;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		margin-top: 0px;
+		width: 1000px;
+		line-height: 34px;
+		top: 400px;
+
+	}
+	.intro .intro__content P {
+		position: absolute;
+		text-align: left;
+		width: 100%;
+		letter-spacing: -0.02em;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 60px;
+		margin-top: -80px;
+		margin-left: -50px;
+		width: 1000px;
+		line-height: 65px;
+		top: -55px;
+		color: #fff;
+		padding-left: 5px;
+	}
+.text-container {
+	flex: 1;
+	padding: 175px;
+}
+.text-container-right {
+	flex: 1;
+}
+	/*Buttons*/
+
+	.butn {
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
+		cursor: pointer;
+		font-weight: 600;
+		font-size: 16px;
+		color: #ffffff;
+		font-family: 'Open Sans';
+		text-transform: uppercase;
+		border-radius: 3px;
+		padding: 15px 40px;
+		margin-top: 20px;
+		text-decoration: none;
+	}
+
+	.butn:hover {
+		background-color: transparent;
+	}
+
+	.btn--blk:hover {
+		background: #4E3EB1;
+	}
+
+	.butn--purple {
+		background: #910DFF;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+		color: #ffffff;
+		font-family: 'Open Sans';
+
+	}
+
+	.butn--purple:hover {
+		background: #910DFF 50%;
+	}
+
+	.btn--blue2{
+		background: white;
+		color: black;
+	}
+
+	.btn--blue2:hover {
+		background: #4E3EB1;
+		color: white;
+	}
+
+	.butn--lightblue {
+		background-color: #0D8CFF;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+		font-family: 'Open Sans';
+	}
+
+	.butn--lightblue:hover {
+		background: #0D8CFF 50%;
+	}
+
+	.butn--white {
+		color: #4DD6FE;
+		background: #fff;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+	}
+
+/* Footer Content */
+	.footerBlue {
+		background: #0000FF;
+		color: #ffffff;
+		padding: 18px 0 20px;
+		display: flex;
+		flex-direction: column;
+		margin: auto auto 0 auto;
+		justify-content: center;
+		align-content: center;
+	}
+	.img {
+		max-width: 100%;
+		flex: 1;
+		padding: 100px;
+	}
+	.footercontent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.strFoot {
+		width: 100%;
+		font-weight: bolder;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.social-content {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		height: 32.5px;
+	}
+	.f-img {
+		align-self: center;
+	}
+	.fp {
+		align-content: center;
+		display: inline-block;
+	}
+	.f1 {
+		display: flex;
+		justify-content: center;
+	}
+	.socials {
+		display: inline-block;
+		align-items: center;
+		margin-top: 12px;
+    margin-bottom: 49px;
+	}
+	.footer p {
+		font-size: 21.33px;
+    line-height: 1.4;
+    margin-bottom: 1px;
+    color: #fff;
+    letter-spacing: -0.025em;
+		align-items: center;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.footerRow1 {
+		display: flex;
+		justify-content: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.h3 {
+		font-weight: 200;
+	}
+
+
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<title>Charlie Cianciolo UX/UI Designer</title>
+
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="images/faceicon.png" />
+<link rel="icon" type="image/png" href="images/faceicon.png" sizes="20x36" />
+<link rel="icon" type="image/png" href="images/faceicon.png" sizes="10x18" />
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="container darkBlue">
+	<div class="topnav1">
+		<img class="logo" src="images/face.png">
+	</div>
+		<div class="container-nav">
+						<div class="topnav1">
+							<a class="topnav" href="#section-next" style="font-family: 'Open Sans'; font-weight: 'bold';">Work</a>
+						</div>
+						<div class="topnav2">
+							<a class="topnav" style="font-family: 'Open Sans'; font-weight: 'bold';"href="about.html">About</a>
+						</div>
+						<div class="topnav3">
+							<a class="topnav" style="font-family: 'Open Sans'; font-weight: 'bold';" href="resume.html">Resume</a>
+						</div>
+						<div class="topnav4">
+							<a class="topnav" style="font-family: 'Open Sans'; font-weight: 'bold';" href="contact.html">Contact</a>
+						</div>
+					</div>
+
+
+	</header>
+	<!-- Intro -->
+
+	<div class="intro">
+		<div class="intro__content">
+
+
+
+			<p>Hey there.<br> My name is <strong style="font-weight: bolder">CHARLIE CIANCIOLO</strong>.<br>I am a <strong style="font-weight: bolder">UX/UI DESIGNER</strong><br> in <strong style="font-weight: bolder">PORTLAND, ME.</strong><br> I design to improve the lives of the user.<br></strong></p>
+
+
+		</div>
+	</div>
+
+<!-- Section TopSpin -->
+<section class="topspin lightblue" id="section-next">
+	<div class="text-container">
+			<h3><div class="str" style="font-family: 'Open Sans'; font-weight: bold">TopSpin</div></h3>
+
+			<p class="header3" style="font-family: 'Open Sans'; font-weight: bold">Tennis Notes,<br> Simplified.</p>
+
+			<div class="par" style="font-family: 'Open Sans'; font-weight: normal">TopSpin is a mobile app<br> that makes it easy to track<br> Tennis progress and keep notes. </p>
+			<a  href="topspin.html" class="butn butn--purple">View case study</a></div>
+		</div>
+
+		<div><br><br><br><br><img src="images/TopSpin.png" height="420px" width="730px" alt="">
+		</div>
+
+	</div>
+
+</section>
+
+<!--Section BusyBus -->
+
+<section class="BusyBus purple">
+	<div class="text-container">
+	<img src="images/BusyBus.png" height="421" width="277" alt="BusyBus">
+</div>
+			<div class="text-container-right">
+				<h3><div class="str" style="font-family: 'Open Sans'; font-weight: bold">BusyBus</div></h3>
+
+				<p class="header3" style="font-family: 'Open Sans'; font-weight: bold">Important bus <br> info at your<br> fingertips.</p>
+
+				<div class="par" style="font-family: 'Open Sans'; font-weight: normal">BusyBus makes it easy to find the<br> closest bus, find out when the next bus<br> arrives, and see all scheduled buses for<br> the day.<br>
+					<a  href="" class="butn butn--lightblue">View Prototype</a></div>
+				</div>
+
+
+</section>
+
+<section class="jazzyBloc darkPurple">
+	<div class="text-container">
+			<h3><div class="str" style="font-family: 'Open Sans'; font-weight: bold">Jazzy Bloc Jams</div></h3>
+
+			<p class="header3" style="font-family: 'Open Sans'; font-weight: bold">Modifying<br>JQuery code<br> to simplify<br>functionality.</p>
+
+			<div class="par" style="font-family: 'Open Sans'; font-weight: normal"> </p>
+			<a  href="https://jazzy-bloc-jams.netlify.com/" class="butn butn--lightblue">View Prototype</a></div>
+		</div>
+
+		<div><img src="images/laptop1x.png" height="326px" width="520px" alt="">
+		</div>
+
+	</div>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="footercontent footerBlue">
+			<div class= "f-img"><img src="images/PeekFace.png" alt="" width="36px" height="40px">
+			</div>
+	<br>
+			<div class="strFoot">Reach Out!</div>
+
+		</div>
+	<br>
+	<div class="footercontent">Thanks for viewing my work.<br> Want to chat about UX? Want to talk Star Wars? <br>Drop me a line at the method of your choice below.</p>
+</div>
+<br>
+	<div class="container social-content">
+					<div class="footerRow1">
+					<a href="mailto:ccianciolo@gmail.com">
+						<img src="images/email.png" alt"Email" width="30" height="30">
+					</a>
+				</div>
+				<div class="footerRow1">
+					<a href="https://www.linkedin.com/in/ccianciolo/">
+						<img src="images/linkedIn.png" alt"LinkedIn" height="30" width="30">
+					</a>
+				</div>
+				<div class="footerRow1">
+					<a href="https://github.com/chuck41520">
+						<img src="images/github.png" alt"GitHub" width="30" height="30">
+					</a>
+				</div>
+				<div class="footerRow1">
+					<a href="https://www.instagram.com/chuckoyeah/">
+					<img src="images/instagram.png" alt="Instagram" width="30" height="30">
+					</a>
+				</div>
+			</div>
+
+	<!-- Copyright -->
+	<div class="container footerBlue">
+		<div class="footerBlue">
+			<div class="fp">
+				<p class="fp">&copy; 2019 Charlie Cianciolo  |  designed and developed by Charlie Cianciolo</p>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
