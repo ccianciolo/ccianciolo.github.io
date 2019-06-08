@@ -57,6 +57,9 @@
 		display: flex;
 		justify-content: flex-end;
 		padding-right:	100px;
+		font-family: 'Open Sans';
+		font-size: 20px;
+		font-weight: 300;
 	}
 	.img-container {
 		display: flex;
