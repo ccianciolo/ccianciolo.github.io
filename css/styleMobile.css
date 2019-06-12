@@ -83,12 +83,22 @@ html {
 .topspin {
 	align-items: center;
 	display: flex;
-	height: 75rem;
+	flex-direction: column;
 	min-height: 40rem;
 	padding-bottom: 3.5rem;
 	padding-top: 3.5rem;
 }
 .BusyBus {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 40rem;
+	padding-bottom: 3.5rem;
+	padding-top: 3.5rem;
+}
+.welcome {
+	color: #ffffff;
+	flex: 1;
 	align-items: center;
 	display: flex;
 	height: 75rem;
@@ -113,11 +123,13 @@ html {
 	color: #ffffff;
 }
 .par {
-	font-size: 2.0rem;
+	font-size: 1.6rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	width: 22.3rem;
+	line-height: 120%;
 }
-.p {
+p {
 	font-size: 1.6rem;
 }
 strong {
@@ -205,11 +217,6 @@ a:hover {
 	padding-bottom: 1rem;
 	display: flex;
 }
-
-h4 {
-	font-size: 3.6rem;
-	letter-spacing: -0.055em;
-}
 .responsive {
 	max-width: 100%;
 	height: auto;
@@ -233,9 +240,11 @@ h1 {
 	font-size: 2.843rem;
 	font-weight: 400;
 	font-family: 'Open Sans';
-	padding-bottom: .5rem;
-	padding-top: .5rem;
 	line-height: 120%;
+}
+h4 {
+	font-size: 3.6rem;
+	letter-spacing: -0.055em;
 }
 h6 {
 	font-family: 'Open Sans';
@@ -283,7 +292,6 @@ h6 {
 .text-container {
 	flex: 1;
 	flex-direction: column;
-	padding: 5rem;
 }
 .text-container-right {
 	flex: 1;
@@ -425,46 +433,59 @@ h6 {
 .headerTitle {
 	display: flex;
 	font-size: 2.133rem;
-	font-weight: 800;
+	font-weight: 400;
 	line-height: 160%;
 	letter-spacing: -0.032em;
 }
 /* Responsive */
-@media (min-width: 50rem) {
-.text-container {
-	height: 70rem;
-	padding-left: 20rem;
+@media (min-width: 40rem) {
+	.text-container {
+		height: 70rem;
+		padding-left: 20rem;
+	}
+	.text-container-right {
+		height: 70rem;
+		padding-right: 20rem;
+	}
+	.topspin {
+		flex-direction: row;
+	}
+	.busybus {
+		flex-direction: row;
+	}
+	.jazzybloc {
+		flex-direction: row;
+	}
+	.img {
+		object-fit: contain;
+	}
+	.par {
+		font-size: 2.133rem;
+		line-height: 120%;
+		padding-bottom: 2rem;
+	}
+	.intro {
+		height: 100rem;
+	}
+	.intro__content {
+		width: 90rem;
+		padding-left: 20rem;
+		padding-top: 20rem;
+	}
+	.logo {
+		margin-left: 20rem;
+	}
+	h1 {
+		font-size: 5rem;
+	}
+	.topnav {
+		font-size: 2rem;
+	}
+	.headerTitle {
+		font-size: 3.79rem;
+	}
 }
-.img {
-	object-fit: contain;
-}
-.par {
-	font-size: 2.133rem;
-	line-height: 120%;
-	padding-bottom: 2rem;
-}
-.intro {
-	height: 100rem;
-}
-.intro__content {
-	width: 90rem;
-	padding-left: 20rem;
-	padding-top: 20rem;
-}
-.logo {
-	margin-left: 20rem;
-}
-h1 {
-	font-size: 5rem;
-}
-.topnav {
-	font-size: 2rem;
-}
-.headerTitle {
-	font-size: 3.79rem;
-}
-}
-@media (max-width: 42rem) {
+@media (max-width: 76.8rem) {
 	.flex-container {
 		flex-direction: column;
 		height: 30rem;
