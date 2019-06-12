@@ -59,6 +59,10 @@ html {
 	display: flex;
 	width: 100%;
 }
+.container-img {
+	width: 100%;
+	flex-wrap: wrap;
+}
 .container-nav {
 	display: flex;
 	justify-content: flex-end;
@@ -110,12 +114,15 @@ html {
 }
 .par {
 	font-size: 2.0rem;
-	/* margin-left: ; */
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 .p {
 	font-size: 1.6rem;
 }
-
+strong {
+	font-weight: bolder;
+}
 .body {
 	min-width: 320px;
 	background: #fff;
@@ -192,10 +199,7 @@ a:hover {
 }
 .str {
 	text-align: left;
-	padding-left: .5rem;
-	font-family: 'Open Sans' sans-serif;
 	width: 100%;
-	margin-left: ;
 	font-weight: 200;
 	font-size: 3.79rem;
 	padding-bottom: 1rem;
@@ -227,7 +231,7 @@ h4 {
 
 h1 {
 	font-size: 2.843rem;
-	font-weight: 800;
+	font-weight: 400;
 	font-family: 'Open Sans';
 	padding-bottom: .5rem;
 	padding-top: .5rem;
@@ -278,8 +282,8 @@ h6 {
 }
 .text-container {
 	flex: 1;
+	flex-direction: column;
 	padding: 5rem;
-	flex-wrap: wrap;
 }
 .text-container-right {
 	flex: 1;
@@ -425,12 +429,19 @@ h6 {
 	line-height: 160%;
 	letter-spacing: -0.032em;
 }
+/* Responsive */
 @media (min-width: 50rem) {
 .text-container {
-	height: 100rem;
+	height: 70rem;
+	padding-left: 20rem;
+}
+.img {
+	object-fit: contain;
 }
 .par {
 	font-size: 2.133rem;
+	line-height: 120%;
+	padding-bottom: 2rem;
 }
 .intro {
 	height: 100rem;
@@ -438,6 +449,7 @@ h6 {
 .intro__content {
 	width: 90rem;
 	padding-left: 20rem;
+	padding-top: 20rem;
 }
 .logo {
 	margin-left: 20rem;
@@ -448,8 +460,8 @@ h1 {
 .topnav {
 	font-size: 2rem;
 }
-.text-container {
-	padding-left: 20rem;
+.headerTitle {
+	font-size: 3.79rem;
 }
 }
 @media (max-width: 42rem) {
