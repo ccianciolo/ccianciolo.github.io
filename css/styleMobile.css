@@ -96,17 +96,17 @@ html {
 	padding-bottom: 3.5rem;
 	padding-top: 3.5rem;
 }
-.welcome {
-	color: #ffffff;
-	flex: 1;
+.jazzyBloc {
 	align-items: center;
 	display: flex;
-	height: 75rem;
+	flex-direction: column;
 	min-height: 40rem;
 	padding-bottom: 3.5rem;
 	padding-top: 3.5rem;
 }
-.jazzyBloc {
+.welcome {
+	color: #ffffff;
+	flex: 1;
 	align-items: center;
 	display: flex;
 	height: 75rem;
@@ -218,7 +218,13 @@ a:hover {
 	display: flex;
 }
 .responsive {
-	max-width: 100%;
+	max-height: 17.4rem;
+	height: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.responsive-left {
+	max-height: 17.4rem;
 	height: auto;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -293,10 +299,6 @@ h6 {
 	flex: 1;
 	flex-direction: column;
 }
-.text-container-right {
-	flex: 1;
-}
-
 /*Buttons*/
 
 .butn {
@@ -441,27 +443,34 @@ h6 {
 @media (min-width: 40rem) {
 	.text-container {
 		height: 70rem;
-		padding-left: 20rem;
-	}
-	.text-container-right {
-		height: 70rem;
-		padding-right: 20rem;
+		padding-left: 18rem;
+		flex-direction: row;
 	}
 	.topspin {
 		flex-direction: row;
 	}
-	.busybus {
+	.BusyBus {
+		flex-direction: row-reverse;
+		padding-bottom: 17rem;
+	}
+	.right {
+		justify-content: flex-end;
+		padding-left: 40rem;
+	}
+	.jazzyBloc {
 		flex-direction: row;
 	}
-	.jazzybloc {
-		flex-direction: row;
+	.img-right {
+		padding-right: 10rem;
 	}
-	.img {
-		object-fit: contain;
+	.left {
+		padding-left: 20rem;
+		padding-top: 5rem;
 	}
 	.par {
 		font-size: 2.133rem;
 		line-height: 120%;
+		width: 39rem;
 		padding-bottom: 2rem;
 	}
 	.intro {
@@ -483,7 +492,30 @@ h6 {
 	}
 	.headerTitle {
 		font-size: 3.79rem;
+		padding-top: 15rem;
 	}
+	.title-right {
+		padding-top: 17rem;
+	}
+	.responsive {
+		max-height: 42rem;
+		width: auto;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.responsive-left {
+		padding-top: 10rem;
+		max-height: 42rem;
+	}
+}
+.strFoot {
+	width: 100%;
+	font-weight: bolder;
+	font-size: 3.6rem;
+}
+.footercontent {
+	font-size: 2.133rem;
+	line-height: 120%;
 }
 @media (max-width: 76.8rem) {
 	.flex-container {
