@@ -495,9 +495,7 @@ h6 {
   letter-spacing: -0.032em;
 }
 /* Responsive */
-@media (min-width: 40rem) {
-
-@media (max-width: 40rem) {
+@media screen and (min-width: 40rem) {
   .text-container {
     height: 70rem;
     padding-left: 18rem;
@@ -555,17 +553,16 @@ h6 {
     padding-top: 10rem;
     max-height: 42rem;
   }
-}
-.strFoot {
-  width: 100%;
-  font-weight: bolder;
-  font-size: 3.6rem;
-}
-.footercontent {
-  display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	font-size: 1.2rem;
-}
+  .strFoot {
+    width: 100%;
+    font-weight: bolder;
+    font-size: 3.6rem;
+  }
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
