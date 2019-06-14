@@ -53,7 +53,6 @@ table {
 html {
 	font-size: 10px;
 	font-family: 'Open Sans';
-
 }
 .container {
 	display: flex;
@@ -112,6 +111,7 @@ html {
 	height: 75rem;
 	min-height: 40rem;
 	padding-bottom: 3.5rem;
+	padding-left: 18rem;
 	padding-top: 3.5rem;
 }
 .purple {
@@ -381,12 +381,18 @@ h6 {
 	flex: 1;
 	padding: 100px;
 }
+.center {
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
 .footercontent {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	font-size: 1.2rem;
+	padding: 2rem;
 }
 .strFoot {
 	width: 100%;
@@ -401,6 +407,7 @@ h6 {
 }
 .f-img {
 	align-self: center;
+	padding-bottom: 2rem;
 }
 .fp {
 	align-content: center;
@@ -439,6 +446,10 @@ h6 {
 	line-height: 160%;
 	letter-spacing: -0.032em;
 }
+.fp {
+	font-size: 1.2rem;
+	width: 25rem;
+}
 /* Responsive */
 @media (min-width: 40rem) {
 	.text-container {
@@ -446,22 +457,25 @@ h6 {
 		padding-left: 18rem;
 		flex-direction: row;
 	}
-	.topspin {
-		flex-direction: row;
-	}
 	.BusyBus {
 		flex-direction: row-reverse;
 		padding-bottom: 17rem;
+	}
+	.topspin {
+		flex-direction: row;
+	}
+	.jazzyBloc {
+		flex-direction: row;
 	}
 	.right {
 		justify-content: flex-end;
 		padding-left: 40rem;
 	}
-	.jazzyBloc {
-		flex-direction: row;
-	}
 	.img-right {
 		padding-right: 10rem;
+	}
+	.img-center {
+		align-self: center;
 	}
 	.left {
 		padding-left: 20rem;
@@ -507,7 +521,6 @@ h6 {
 		padding-top: 10rem;
 		max-height: 42rem;
 	}
-}
 .strFoot {
 	width: 100%;
 	font-weight: bolder;
@@ -516,6 +529,8 @@ h6 {
 .footercontent {
 	font-size: 2.133rem;
 	line-height: 120%;
+	padding: 2rem;
+}
 }
 @media (max-width: 76.8rem) {
 	.flex-container {
