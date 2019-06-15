@@ -532,7 +532,7 @@ h6 {
 	padding: 2rem;
 }
 }
-@media (min-width: 41.4rem)and (max-width: 76.8rem) {
+@media (min-width: 41.5rem)and (max-width: 76.9rem) {
   .text-container {
     width: 100%;
   }
@@ -541,11 +541,17 @@ h6 {
     padding-left: 10rem;
     padding-right: 10rem;
   }
-  .TopSpin {
-    flex-direction: column;
+  .topspin {
+    flex-direction: row;
+    padding-left: 10rem;
   }
   .BusyBus {
-    flex-direction: column;
+    flex-direction: row-reverse;
+  }
+  .jazzyBloc {
+    flex-direction: row;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
   .fp {
     font-size: 1.6rem;
@@ -553,7 +559,8 @@ h6 {
   }
   .right {
     justify-content: flex-end;
-    padding-left: 40rem;
+    padding-left: 20rem;
+    padding-right: 8rem;
   }
   .img-center {
     align-self: center;
@@ -562,8 +569,11 @@ h6 {
     padding-left: 20rem;
     padding-top: 5rem;
   }
+  .img-right {
+		padding-left: 10rem;
+	}
   .par {
-    width: 100%;
+    width: 80%;
   }
   .logo {
     margin-left: 20rem;
