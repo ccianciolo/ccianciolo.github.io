@@ -680,7 +680,7 @@ h6 {
   }
   .right {
     justify-content: flex-end;
-    padding-left: 40rem;
+    padding-left: 20rem;
   }
   .img-right {
     padding-right: 10rem;
@@ -689,7 +689,7 @@ h6 {
     align-self: center;
   }
   .left {
-    padding-left: 20rem;
+    padding-left: 30rem;
     padding-top: 5rem;
   }
   .par {
@@ -800,7 +800,7 @@ h6 {
   }
   .right {
     justify-content: flex-end;
-    padding-left: 20rem;
+    padding-left: 10rem;
     padding-right: 8rem;
   }
   .img-center {
