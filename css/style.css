@@ -137,7 +137,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-family: 'Open Sans';
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .nav {
   display: flex;
@@ -165,10 +165,10 @@ nav:hover {
   color: #fff;
 
 }
-.a {
+a {
   color: inherit;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   opacity: 1;
   transition: opacity .3s;
 }
@@ -230,7 +230,7 @@ a:hover {
   height: 6.0rem;
   font-size: 0;
   line-height: 0;
-  margin-left: 5rem;
+  margin-left: 3rem;
   margin-top: 3.5rem;
 }
 
@@ -267,7 +267,7 @@ h6 {
 }
 .intro__content {
   display: flex;
-  padding-left: 5rem;
+  padding-left: 3rem;
   text-align: left;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -575,8 +575,8 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
+
 .QuestCompleted {
   align-items: center;
   flex: 1;
@@ -584,9 +584,17 @@ h6 {
   flex-direction: column;
   min-height: 40rem;
 }
+.resume-content {
+  align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 40rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .par-case {
   font-size: 1.6rem;
-  font-weight: 600;
   padding-top: 2rem;
   padding-bottom: 2rem;
   line-height: 160%;
@@ -622,6 +630,9 @@ h6 {
   font-size: 2.133rem;
   font-weight: 400;
   line-height: 160%;
+}
+.text-container-resume {
+  max-width: 80%;
 }
 .str-case {
   text-align: left;
@@ -659,6 +670,10 @@ h6 {
     width: 81rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+  .text-container-resume {
+    max-width: 80%;
+    padding-top: 3rem;
   }
   .about {
     width: 81rem;
@@ -716,7 +731,7 @@ h6 {
     font-size: 5rem;
   }
   .topnav {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .headerTitle {
     font-size: 3.79rem;
@@ -737,6 +752,7 @@ h6 {
   .responsive-about {
     max-width: 80%;
     height: auto;
+    align-self: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
@@ -756,12 +772,11 @@ h6 {
   }
   .par-case {
     font-size: 2.133rem;
-    font-weight: 600;
     line-height: 160%;
     width: 81rem;
     padding-bottom: 2rem;
   }
-  .par-abou {
+  .par-about {
     width: 80%;
   }
   .str-case {
@@ -776,6 +791,9 @@ h6 {
     margin-left: 10rem;
     margin-right: 10rem;
     width: 75%;
+  }
+  .text-container-resume {
+    max-width: 80%;
   }
   .intro__content {
     width: 100%;
