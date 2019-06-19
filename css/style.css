@@ -624,6 +624,14 @@ h6 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.responsive-case-user {
+  max-width: 90%;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .text-container-case {
   flex: 1;
   flex-direction: column;
@@ -651,7 +659,7 @@ h6 {
 .about {
   flex: 1;
   display: flex;
-  align-items: center;
+  padding-left: 5rem;
   flex-direction: column;
   min-height: 40rem;
 }
