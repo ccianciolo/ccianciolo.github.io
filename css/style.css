@@ -611,9 +611,9 @@ h6 {
   flex: 1;
 }
 .center-resume {
-  justify-content: center;
   display: flex;
   flex: 1;
+  justify-content: center;
   padding-bottom: 5rem;
 }
 .responsive-case {
