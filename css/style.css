@@ -617,7 +617,7 @@ h6 {
   padding-bottom: 5rem;
 }
 .responsive-case {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -659,6 +659,7 @@ h6 {
 .about {
   flex: 1;
   display: flex;
+  align-items: center;
   padding-left: 5rem;
   flex-direction: column;
   min-height: 40rem;
@@ -800,7 +801,10 @@ h6 {
     padding-bottom: 2rem;
   }
   .par-about {
-    width: 80%;
+    font-size: 2.133rem;
+    line-height: 160%;
+    width: 81rem;
+    padding-bottom: 2rem;
   }
   .str-case {
     width:39rem;
@@ -872,6 +876,9 @@ h6 {
   }
   .par-case {
     width: 100%;
+  }
+  .responsive-case {
+    max-width: 100%;
   }
   .par-about {
     width: 100%;
