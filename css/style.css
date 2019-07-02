@@ -676,7 +676,21 @@ h6 {
   min-height: 40rem;
 }
 .form {
-  width: 32rem;
+flex-direction: column;
+align-items: center;
+}
+.contact-button {
+width:25rem;
+height:4rem;
+}
+.contact-email {
+width:25rem;
+height:2rem;
+align-self: center;
+}
+.contact-text {
+width:25rem;
+height:20rem;
 }
 /* Responsive */
 @media (min-width: 76.9rem){
@@ -831,6 +845,18 @@ h6 {
   }
   .userStories {
     flex-direction: row;
+  }
+  .contact-button {
+  width:45rem;
+  height:2rem;
+  }
+  .contact-email {
+  width:45rem;
+  height:2rem;
+  }
+  .contact-text {
+  width:45rem;
+  height:20rem;
   }
 }
 @media (min-width: 41.4rem)and (max-width: 76.8rem) {
