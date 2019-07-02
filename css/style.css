@@ -44,6 +44,7 @@ table {
 html {
   font-size: 10px;
   font-family: 'Open Sans';
+  scroll-behavior: smooth;
 }
 .container {
   display: flex;
@@ -230,7 +231,7 @@ a:hover {
   height: 6.0rem;
   font-size: 0;
   line-height: 0;
-  margin-left: 5rem;
+  margin-left: 3rem;
   margin-top: 3.5rem;
 }
 
@@ -267,7 +268,7 @@ h6 {
 }
 .intro__content {
   display: flex;
-  padding-left: 5rem;
+  padding-left: 3rem;
   text-align: left;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -373,6 +374,9 @@ h6 {
   justify-content: center;
   align-content: center;
 }
+.column-align {
+  flex-direction: column;
+}
 .img {
   max-width: 100%;
   flex: 1;
@@ -381,7 +385,7 @@ h6 {
 .center {
   justify-content: center;
   display: flex;
-  flex: 1;
+  align-self: center;
 }
 .footercontent {
   display: flex;
@@ -609,7 +613,9 @@ h6 {
   justify-content: center;
   display: flex;
   flex: 1;
+  padding-bottom: 3rem;
 }
+
 .center-resume {
   display: flex;
   flex: 1;
@@ -619,12 +625,19 @@ h6 {
 .responsive-case {
   max-width: 90%;
   height: auto;
+  max-height: 55rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.old-logos {
+  max-width: 30rem;
+  align-self: center;
+}
 .responsive-case-user {
+  display: flex;
+  flex-direction: column;
   max-width: 90%;
   height: auto;
   padding-top: 3rem;
@@ -660,9 +673,13 @@ h6 {
   flex: 1;
   display: flex;
   align-items: center;
-  padding-left: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   flex-direction: column;
   min-height: 40rem;
+}
+.form {
+  width: 32rem;
 }
 /* Responsive */
 @media (min-width: 76.9rem){
@@ -683,6 +700,12 @@ h6 {
     flex: 1;
     flex-direction: column;
     width: 81rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .img-container-case {
+    flex: 1;
+    flex-direction: column;
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
@@ -809,6 +832,9 @@ h6 {
   .str-case {
     width:39rem;
   }
+  .userStories {
+    flex-direction: row;
+  }
 }
 @media (min-width: 41.4rem)and (max-width: 76.8rem) {
   .text-container {
@@ -818,6 +844,13 @@ h6 {
     margin-left: 10rem;
     margin-right: 10rem;
     width: 75%;
+  }
+  .img-container-case {
+    flex: 1;
+    flex-direction: column;
+    width: 50rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   .text-container-resume {
     max-width: 80%;
@@ -879,8 +912,12 @@ h6 {
   }
   .responsive-case {
     max-width: 100%;
+    max-height: 55rem;
   }
   .par-about {
     width: 100%;
+  }
+  .userPersonas {
+    flex-direction: row;
   }
 }
