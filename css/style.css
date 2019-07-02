@@ -612,7 +612,6 @@ h6 {
 .center-case {
   justify-content: center;
   display: flex;
-  flex: 1;
   padding-bottom: 3rem;
 }
 
