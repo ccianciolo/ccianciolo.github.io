@@ -196,6 +196,17 @@ a:hover {
   display: flex;
   padding-bottom: 5rem;
 }
+.header3-contact {
+  font-size: 2.8rem;
+  letter-spacing: -0.032em;
+  line-height: 120%;
+  font-weight: 800;
+  line-height: 120%;
+  display: flex;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  align-self: center;
+}
 .str {
   text-align: left;
   width: 100%;
@@ -362,7 +373,10 @@ h6 {
   background: #fff;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
 }
-
+.contactBlue {
+  background: #0000FF;
+  color: #ffffff;
+}
 /* Footer Content */
 .footerBlue {
   background: #0000FF;
@@ -675,22 +689,36 @@ h6 {
   flex-direction: column;
   min-height: 40rem;
 }
+.contact {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.par-contact {
+  font-size: 2.133rem;
+  line-height: 160%;
+  padding-bottom: 2rem;
+  width: 25rem;
+  font-family: 'Open Sans', sans-serif;
+}
 .form {
-flex-direction: column;
-align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 60%;
 }
 .contact-button {
-width:25rem;
-height:4rem;
+  margin-top: 1rem;
+  width: 50%;
 }
 .contact-email {
-width:25rem;
-height:2rem;
-align-self: center;
+  height: 3rem;
+  margin-bottom: 2rem;
 }
 .contact-text {
-width:25rem;
-height:20rem;
+  height: 20rem;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Responsive */
 @media (min-width: 76.9rem){
@@ -847,16 +875,15 @@ height:20rem;
     flex-direction: row;
   }
   .contact-button {
-  width:45rem;
-  height:2rem;
+    width: 15%;
   }
   .contact-email {
-  width:45rem;
-  height:2rem;
+    width: 100%;
+    align-self: center;
   }
   .contact-text {
-  width:45rem;
-  height:20rem;
+    width: 100%;
+    align-self: center;
   }
 }
 @media (min-width: 41.4rem)and (max-width: 76.8rem) {
