@@ -742,6 +742,9 @@ form {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  .intro-width {
+    width: 60rem;
+  }
   .img-container-case {
     flex: 1;
     flex-direction: column;
@@ -860,6 +863,12 @@ form {
     font-size: 2.133rem;
     line-height: 160%;
     width: 81rem;
+    padding-bottom: 2rem;
+  }
+  .intro-case {
+    font-size: 2.133rem;
+    line-height: 160%;
+    width: 60rem;
     padding-bottom: 2rem;
   }
   .par-about {
