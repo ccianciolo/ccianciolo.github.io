@@ -57,6 +57,7 @@ html {
 .container-nav {
   display: flex;
   justify-content: flex-end;
+  margin-right: 4rem;
 }
 .topnav1 {
   display: flex;
@@ -221,8 +222,14 @@ a:hover {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.laptop {
+  width: 25rem;
+}
+.phones {
+  width: 25rem;
+}
 .responsive-about {
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -242,7 +249,7 @@ a:hover {
   height: 6.0rem;
   font-size: 0;
   line-height: 0;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: 3.5rem;
 }
 
@@ -279,7 +286,8 @@ h6 {
 }
 .intro__content {
   display: flex;
-  padding-left: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   text-align: left;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -341,13 +349,27 @@ h6 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
   color: #ffffff;
   font-family: 'Open Sans';
-
 }
 
 .butn--purple:hover {
   background: #910DFF 50%;
 }
+.butn--darkBlue {
+  background: #0000FF;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 15rem;
+  font-family: 'Open Sans';
+}
 
+.butn--darkBlue:hover {
+  background: #034AA6 20%;
+  color: #ffffff;
+}
 .btn--blue2{
   background: white;
   color: black;
@@ -637,7 +659,7 @@ h6 {
   padding-bottom: 5rem;
 }
 .responsive-case {
-  max-width: 90%;
+  max-width: 75%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-left: 1rem;
@@ -650,7 +672,7 @@ h6 {
 .responsive-case-user {
   display: flex;
   flex-direction: column;
-  max-width: 90%;
+  max-width: 75%;
   height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -660,7 +682,14 @@ h6 {
 .text-container-case {
   flex: 1;
   flex-direction: column;
-  width: 29.5rem;
+  width: 75%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.text-container-case-about {
+  flex: 1;
+  flex-direction: column;
+  width: 90%;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -669,6 +698,7 @@ h6 {
   font-size: 2.133rem;
   font-weight: 400;
   line-height: 160%;
+
 }
 .text-container-resume {
   max-width: 80%;
@@ -707,26 +737,40 @@ h6 {
   align-items: center;
 }
 form {
-  width: 60%;
+  width: 80%;
 }
 .contact-button {
   margin-top: 1rem;
   width: 50%;
 }
 .contact-email {
-  height: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
   margin-bottom: 2rem;
 }
 .contact-text {
   height: 20rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
   font-family: 'Open Sans', sans-serif;
 }
 /* Responsive */
 @media (min-width: 76.9rem){
+  form {
+    width: 50%;
+  }
   .text-container {
     height: 70rem;
     padding-left: 18rem;
     flex-direction: row;
+  }
+  .container-nav {
+    margin-right: 18rem;
   }
   .welcome {
     flex-direction: row;
@@ -736,7 +780,22 @@ form {
     padding-left: 18rem;
     padding-right: 18rem;
   }
+  .phones {
+    height: 35.4rem;
+    width: auto;
+  }
+  .laptop {
+    height: 32.6rem;
+    width: auto;
+  }
   .text-container-case {
+    flex: 1;
+    flex-direction: column;
+    width: 81rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .text-container-case-about {
     flex: 1;
     flex-direction: column;
     width: 81rem;
@@ -785,16 +844,16 @@ form {
   }
   .right {
     justify-content: flex-end;
-    padding-left: 20rem;
+    padding-left: 38rem;
   }
   .img-right {
-    padding-right: 10rem;
+    padding-right: 18rem;
   }
   .img-center {
     align-self: center;
   }
   .left {
-    padding-left: 30rem;
+    padding-left: 18rem;
     padding-top: 5rem;
   }
   .par {
@@ -891,9 +950,11 @@ form {
   .contact-email {
     width: 100%;
     align-self: center;
+    font-size: 2.133rem;
   }
   .contact-text {
     width: 100%;
+    font-size: 2.133rem;
     align-self: center;
   }
 }
@@ -906,10 +967,14 @@ form {
     margin-right: 10rem;
     width: 75%;
   }
+  .text-container-case-about {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: auto;
+  }
   .img-container-case {
     flex: 1;
     flex-direction: column;
-    width: 50rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
@@ -959,7 +1024,10 @@ form {
     padding-left: 10rem;
   }
   .logo {
-    margin-left: 10rem;
+    margin-left: 8rem;
+  }
+  .container-nav {
+    margin-right: 8rem;
   }
   .par {
     width: 80%;
