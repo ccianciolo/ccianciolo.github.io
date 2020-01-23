@@ -307,9 +307,7 @@ ABOUT PAGE - about.html
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:
-  max-width 100%;
-  max-height: auto;
+  max-width: 100%;
 }
 
 
@@ -929,7 +927,10 @@ line-height: 1;
     padding-left: 18rem;
     flex-direction: row;
   }
-
+.img {
+  max-width: 100%;
+  height: auto;
+}
 /*Typography*/
   h1 {
     font-size: 5.6rem;
