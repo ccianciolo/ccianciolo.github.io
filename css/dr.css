@@ -308,6 +308,8 @@ ABOUT PAGE - about.html
   background-repeat: no-repeat;
   background-size: cover;
   background-color:
+  max-width 100%;
+  max-height: auto;
 }
 
 
