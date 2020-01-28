@@ -86,20 +86,22 @@ html {
   padding-bottom: 3.5rem;
   padding-top: 3.5rem;
 }
-.jazzyBloc {
+.designReads {
   align-items: center;
   display: flex;
   flex-direction: column;
   min-height: 40rem;
   padding-bottom: 3.5rem;
   padding-top: 3.5rem;
+  background: #0000FF 100%;
+  color: #ffffff;
 }
 .purple {
   background: #910DFF 100%;
   color: #ffffff;
 }
 .pandora {
-  background: #0000ff 100%;
+  background: #480CE8 100%;
   color: #ffffff;
 }
 .darkPurple{
@@ -828,6 +830,9 @@ form {
     padding-left: 18rem;
     flex-direction: row;
   }
+  .designReads {
+    flex-direction: row;
+  }
   .container-nav {
     margin-right: 18rem;
   }
@@ -948,6 +953,10 @@ form {
     font-size: 3.79rem;
   }
   .headerTitle-topSpin {
+    font-size: 3.79rem;
+    padding-top: 14rem;
+  }
+  .headerTitle-designReads {
     font-size: 3.79rem;
     padding-top: 14rem;
   }
