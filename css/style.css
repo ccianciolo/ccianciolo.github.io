@@ -505,10 +505,48 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-  padding-top: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+.welcome-logos {
+  color: #ffffff;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 10rem; */
+  padding-top: 10rem;
   padding-bottom: 3rem;
 }
 .theQuest {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40rem;
+}
+.SchoolGroup {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40rem;
+}
+.SelfBranding {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40rem;
+}
+.CookieCrumbs {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40rem;
+}
+.TopSpin {
   flex: 1;
   display: flex;
   align-items: center;
@@ -671,6 +709,11 @@ h6 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.responsive-logos {
+  max-width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .old-logos {
   max-width: 30rem;
   align-self: center;
@@ -691,6 +734,12 @@ h6 {
   width: 75%;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+.text-container-logo {
+  flex: 1;
+  flex-direction: column;
+  width: 75%;
+  padding-top: 5rem;
 }
 .text-container-case-about {
   flex: 1;
@@ -839,7 +888,15 @@ form {
   .welcome {
     flex-direction: row;
     min-height: 40rem;
-    padding-top: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+  .welcome-logos {
+    flex-direction: row;
+    min-height: 10rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
     padding-left: 18rem;
     padding-right: 18rem;
@@ -957,6 +1014,10 @@ form {
     padding-top: 14rem;
   }
   .headerTitle-designReads {
+    font-size: 3.79rem;
+    padding-top: 14rem;
+  }
+  .headerTitle-logos {
     font-size: 3.79rem;
     padding-top: 14rem;
   }
@@ -1106,6 +1167,10 @@ form {
     width: 80%;
   }
   .welcome {
+    flex-direction: column;
+    min-height: 40rem;
+  }
+  .welcome-logos {
     flex-direction: column;
     min-height: 40rem;
   }
