@@ -59,6 +59,33 @@ html {
   justify-content: flex-end;
   margin-right: 4rem;
 }
+.container-about {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 18rem;
+}
+.container-bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+.about-hero, .about-body, {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-body {
+  grid-template-columns: 1fr;
+}
+.about-img{
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.xwing-img{
+  width: 70%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .topnav1 {
   display: flex;
   flex-grow: 1;
@@ -201,7 +228,6 @@ a:hover {
   font-weight: 800;
   line-height: 120%;
   display: flex;
-  padding-bottom: 5rem;
 }
 .header3-contact {
   font-size: 2.8rem;
@@ -421,7 +447,6 @@ h6 {
 }
 .center {
   justify-content: center;
-  display: flex;
   align-self: center;
 }
 .footercontent {
@@ -861,12 +886,29 @@ form {
   top: 0;
   width: 100%;
   padding-bottom: 2.5rem;
+  margin-bottom: 5rem;
 }
 .padded {
   padding-top: 10rem;
 }
 /* Responsive */
 @media (min-width: 76.9rem){
+  .container-about {
+    width: 75%;
+  }
+  .container-bottom {
+    width: 50%;
+  }
+  .about-hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .about-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5rem;
+    padding-top: 5rem;
+  }
   form {
     width: 50%;
   }
@@ -1063,7 +1105,6 @@ form {
   .par-about {
     font-size: 2.133rem;
     line-height: 160%;
-    width: 81rem;
     padding-bottom: 2rem;
   }
   .str-case {
@@ -1088,6 +1129,17 @@ form {
 
 }
 @media (min-width: 41.4rem)and (max-width: 76.8rem) {
+  .about-hero, .about-body, {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 2.5rem
+  }
+  .container-about {
+    width: 80%;
+  }
+  .container-bottom {
+    width: 60%;
+  }
   .text-container {
     width: 100%;
   }
