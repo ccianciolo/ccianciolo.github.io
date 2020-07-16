@@ -67,6 +67,20 @@ html {
 .container-bottom {
   width: 80%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.container-bottom-text {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.about-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .about-hero, .about-body, {
   display: grid;
@@ -78,13 +92,9 @@ html {
 }
 .about-img{
   width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .xwing-img{
   width: 70%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .topnav1 {
   display: flex;
@@ -261,10 +271,7 @@ a:hover {
   width: 25rem;
 }
 .responsive-about {
-  max-width: 80%;
-  height: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  width: 100%;
 }
 .responsive-left {
   max-height: 17.4rem;
@@ -705,8 +712,6 @@ h6 {
 }
 .par-about {
   font-size: 1.6rem;;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   line-height: 160%;
 }
 .center-case {
@@ -898,10 +903,15 @@ form {
   }
   .container-bottom {
     width: 50%;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .container-bottom-text {
+    width: 50%;
   }
   .about-hero {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 5rem;
   }
   .about-body {
     display: grid;
@@ -1068,13 +1078,6 @@ form {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
-  .responsive-about {
-    max-width: 80%;
-    height: auto;
-    align-self: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
   .responsive-left {
     padding-top: 10rem;
     max-height: 42rem;
@@ -1105,7 +1108,6 @@ form {
   .par-about {
     font-size: 2.133rem;
     line-height: 160%;
-    padding-bottom: 2rem;
   }
   .str-case {
     width:39rem;
@@ -1134,11 +1136,20 @@ form {
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
   }
+  .xwing-img{
+    width: 40%;
+  }
   .container-about {
     width: 80%;
   }
   .container-bottom {
     width: 60%;
+  }
+  .container-bottom-text {
+    width: 60%;
+  }
+  .about-bottom {
+    grid-template-columns: 1fr;
   }
   .text-container {
     width: 100%;
