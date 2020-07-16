@@ -92,9 +92,11 @@ html {
 }
 .about-img{
   width: 100%;
+  padding-bottom: 2rem;
 }
 .xwing-img{
   width: 70%;
+  padding-bottom: 2rem;
 }
 .topnav1 {
   display: flex;
@@ -230,6 +232,7 @@ a:hover {
   font-weight: 800;
   line-height: 120%;
   display: flex;
+  padding-bottom: 2rem;
 }
 .header3-title {
   font-size: 2.8rem;
@@ -238,6 +241,7 @@ a:hover {
   font-weight: 800;
   line-height: 120%;
   display: flex;
+  padding-bottom: 2rem;
 }
 .header3-contact {
   font-size: 2.8rem;
@@ -713,6 +717,7 @@ h6 {
 .par-about {
   font-size: 1.6rem;;
   line-height: 160%;
+  padding-bottom: 2rem;
 }
 .center-case {
   justify-content: center;
