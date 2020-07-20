@@ -50,6 +50,38 @@ html {
   display: flex;
   width: 100%;
 }
+.container-content {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.container-80 {
+  width: 80%;
+}
+.container-top {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 18rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.container-60 {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.content {
+  font-family: 'Montserrat';
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+.main-label {
+  font-family: 'Montserrat';
+  font-size: 3.0rem;
+  line-height: 2.8rem;
+  letter-spacing: .4rem;
+}
 .container-img {
   width: 100%;
   flex-wrap: wrap;
@@ -298,27 +330,32 @@ a:hover {
 
 h1 {
   font-size: 2.843rem;
-  font-weight: 400;
-  font-family: 'Open Sans';
+  font-weight: 700;
+  font-family: 'Playfair Display', sans-serif;
   line-height: 120%;
+  text-align: center;
 }
 h2 {
   font-size: 2.843rem;
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: 'Playfair Display', sans-serif;
   line-height: 120%;
 }
 h4 {
   font-size: 3.6rem;
   letter-spacing: -0.055em;
 }
+h5 {
+  text-align: center;
+}
 h6 {
-  font-family: 'Open Sans';
-  font-weight: 800;
-  text-align: left;
-  position: absolute;
-  top: 45%;
-  right: 0;
+  color:#12344B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.0rem;
+  padding-top: 1rem;
 }
 .intro {
   height: 60rem;
