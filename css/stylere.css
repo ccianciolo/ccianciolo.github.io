@@ -70,6 +70,7 @@ html {
 .container-3 {
   width: 75%;
   display: grid;
+  grid-gap: 5rem;
   grid-template-columns: 1fr;
   margin: 0 auto;
   padding-top: 2rem;
@@ -85,7 +86,6 @@ html {
   padding-bottom: 2rem;
 }
 .container-top {
-  width: 60%;
   margin: 0 auto;
   padding-top: 18rem;
   display: grid;
