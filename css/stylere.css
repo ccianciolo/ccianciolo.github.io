@@ -489,7 +489,6 @@ h6 {
   color: #ffffff;
   font-family: 'Open Sans';
 }
-
 .butn--purple:hover {
   background: #910DFF 50%;
 }
@@ -499,7 +498,6 @@ h6 {
   color: #ffffff;
   font-family: 'Open Sans';
 }
-
 .butn--darkBlue:hover {
   background: #034AA6 20%;
   color: #ffffff;
@@ -508,12 +506,10 @@ h6 {
   background: white;
   color: black;
 }
-
 .btn--blue2:hover {
   background: #4E3EB1;
   color: white;
 }
-
 .butn--lightblue {
   background-color: #0D8CFF;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
