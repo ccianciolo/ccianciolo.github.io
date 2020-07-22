@@ -371,7 +371,7 @@ h1 {
 }
 .h1-dr {
   color:#12344B;
-  font-size: 2.843rem;
+  font-size: 4.0rem;
   font-weight: 700;
   font-family: 'Playfair Display', sans-serif;
   line-height: 120%;
@@ -473,7 +473,7 @@ h6 {
   cursor: pointer;
   font-size: 1.6rem;
   font-weight: 700;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 4rem;
   padding: 10px 41px;
 }
