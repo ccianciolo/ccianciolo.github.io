@@ -458,7 +458,6 @@ h6 {
   flex-direction: column;
 }
 /*Buttons*/
-
 .butn {
   display: flex;
   justify-content: center;
@@ -476,11 +475,9 @@ h6 {
   text-decoration: none;
   width: 15rem;
 }
-
 .butn:hover {
   background-color: transparent;
 }
-
 .btn--blk:hover {
   background: #4E3EB1;
 }
@@ -532,7 +529,6 @@ h6 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
   font-family: 'Open Sans';
 }
-
 .butn--lightblue:hover {
   background: #0D8CFF 50%;
 }
@@ -729,7 +725,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .UserFlows {
   align-items: center;
@@ -737,7 +732,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .SketchesWireframes {
   align-items: center;
@@ -745,7 +739,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .UserTesting {
   align-items: center;
@@ -761,7 +754,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .ColorTypography {
   align-items: center;
@@ -769,7 +761,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .PreferenceTesting {
   align-items: center;
@@ -777,7 +768,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .LogoEvolution {
   align-items: center;
@@ -785,7 +775,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .HighFiMockups {
   align-items: center;
@@ -793,7 +782,6 @@ h6 {
   display: flex;
   flex-direction: column;
   min-height: 40rem;
-
 }
 .HiFiUserTesting {
   align-items: center;
@@ -802,7 +790,6 @@ h6 {
   flex-direction: column;
   min-height: 40rem;
 }
-
 .QuestCompleted {
   align-items: center;
   flex: 1;
@@ -836,7 +823,6 @@ h6 {
   padding-bottom: 3rem;
   padding-top: 3rem;
 }
-
 .center-resume {
   display: flex;
   flex: 1;
@@ -894,7 +880,6 @@ h6 {
   font-size: 2.133rem;
   font-weight: 400;
   line-height: 160%;
-
 }
 .text-container-resume {
   width: 90%;
@@ -998,7 +983,6 @@ form {
   width: 26.9rem;
   height: 5rem;
 }
-
 .butn1--riseBlue:hover {
   background: #3264C1 70%;
 }
@@ -1040,7 +1024,6 @@ form {
   }
   .container-60 {
     width: 60%;
-
   }
   .container-bottom {
     width: 50%;
