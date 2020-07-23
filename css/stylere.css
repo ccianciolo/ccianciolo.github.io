@@ -1315,11 +1315,6 @@ form {
   .BusyBus {
     flex-direction: row-reverse;
   }
-  .jazzyBloc {
-    flex-direction: row;
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
   .resume-content {
     padding-top: 10rem;
     padding-left: 10rem;
