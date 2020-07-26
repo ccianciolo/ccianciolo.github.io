@@ -112,6 +112,7 @@ html {
   font-family: 'Montserrat';
   font-size: 1.8rem;
   line-height: 2.8rem;
+  padding-bottom: 2rem;
 }
 .top-content {
   color:#ffffff;
@@ -1046,6 +1047,7 @@ form {
   }
   .dr-color {
     background-color: #12344B;
+    padding: 5rem;
   }
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
