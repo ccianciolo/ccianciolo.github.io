@@ -56,7 +56,11 @@ html {
   display: grid;
   grid-template-columns: 1fr;
 }
-.container-80 {
+.container-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+.container-90-index {
   width: 80%;
   margin: 0 auto;
 }
@@ -96,17 +100,24 @@ html {
 }
 .container-index-darkBlue {
   margin: 0 auto;
-  padding-top: 15rem;
-  padding-bottom: 30rem;
   display: grid;
   grid-template-columns: 1fr;
   background-color: #034AA6;
+  height: 100vh;
+}
+.line-height-100 {
+  line-height: 50px;
 }
 .container-60 {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.container-60-index {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20vh;
 }
 .content {
   font-family: 'Montserrat';
@@ -159,9 +170,9 @@ html {
   justify-content: flex-end;
 }
 .container-about {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  padding-top: 18rem;
+  padding-top: 10rem;
 }
 .container-bottom {
   width: 80%;
@@ -259,8 +270,9 @@ html {
 p {
   font-size: 1.6rem;
 }
-.strong {
+.weight {
   font-weight: bolder;
+  font-size: 2.8rem;
 }
 body {
   min-width: 320px;
@@ -395,13 +407,20 @@ a:hover {
   margin-top: 5px;
 }
 h1 {
-  font-size: 2.843rem;
+  font-size: 2.65rem;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   line-height: 120%;
 }
 .large-text {
-  font-size: 8.0rem;
+  font-size: 3.8rem;
+  letter-spacing: .5rem;
+}
+.medium-intro {
+  font-size: 2.8rem;
+}
+.dr-color {
+  background-color: #12344B;
 }
 .h1-dr {
   color:#ffffff;
@@ -1029,6 +1048,31 @@ form {
 @media (min-width: 76.9rem){
   .container-about {
     width: 75%;
+    padding-top: 12rem;
+  }
+  .weight {
+    font-weight: bolder;
+    font-size: 4.2rem;
+  }
+  .container-90 {
+    margin-top: 10rem;
+  }
+  .container-90-index {
+    margin-top: 15rem;
+  }
+  .large-text {
+    font-size: 6.0rem;
+    letter-spacing: .75rem;
+  }
+  .line-height-100 {
+    line-height: 100px;
+  }
+  .medium-intro {
+    font-size: 4.2rem;
+  }
+  .container-index-darkBlue {
+    height: 100vh;
+    padding-top: 0vh;
   }
   .container-top {
     margin: 0 auto;
@@ -1047,7 +1091,8 @@ form {
   }
   .dr-color {
     background-color: #12344B;
-    padding: 5rem;
+    padding-top: 5rem;
+    height: 830px;
   }
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -1063,6 +1108,10 @@ form {
   }
   .container-60 {
     width: 60%;
+  }
+  .container-60-index {
+    width: 60%;
+    margin-top: 25rem;
   }
   .container-bottom {
     width: 50%;
@@ -1293,6 +1342,13 @@ form {
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
   }
+  .large-text {
+    font-size: 6.0rem;
+    letter-spacing: .75rem;
+  }
+  .medium-intro {
+    font-size: 4.0rem;
+  }
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
@@ -1303,6 +1359,7 @@ form {
   }
   .container-about {
     width: 80%;
+    padding-top: 12rem;
   }
   .container-bottom {
     width: 60%;
