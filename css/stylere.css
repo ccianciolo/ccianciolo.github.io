@@ -65,7 +65,6 @@ html {
 .container-90-index {
   width: 90%;
   margin: 0 auto;
-  text-align: center;
 }
 .container-4 {
   width: 75%;
@@ -425,6 +424,15 @@ h1 {
 .dr-color {
   background-color: #12344B;
 }
+.pandora-color {
+  background-color: #2D56CC;
+}
+.logos-color {
+  background-color: #034AA6;
+}
+.topspin-color {
+  background-color: #41568D;
+}
 .h1-dr {
   color:#ffffff;
   font-size: 4.0rem;
@@ -566,6 +574,17 @@ h6 {
 }
 .butn--darkBlue:hover {
   background: #034AA6 20%;
+  color: #ffffff;
+}
+.butn--orange {
+  background: #F27D16
+;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,.1);
+  color: #ffffff;
+  font-family: 'Open Sans';
+}
+.butn--orange:hover {
+  background: #F27D16 20%;
   color: #ffffff;
 }
 .btn--blue2{
@@ -1053,6 +1072,24 @@ form {
     width: 75%;
     padding-top: 12rem;
   }
+  .sectionlabel {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 4.0rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .sectionlabel-smaller {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 4.0rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
   .weight {
     font-weight: bolder;
     font-size: 4.2rem;
@@ -1097,6 +1134,21 @@ form {
     padding-top: 5rem;
     height: 830px;
   }
+  .topspin-color {
+    background-color: #41568D;
+    padding-top: 5rem;
+    height: 830px;
+  }
+  .pandora-color {
+    background-color: #2D56CC;
+    padding-top: 5rem;
+    height: 830px;
+  }
+  .logos-color {
+    background-color: #034AA6;
+    padding-top: 5rem;
+    height: 830px;
+  }
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
@@ -1106,7 +1158,11 @@ form {
   .container-2third {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 5rem;
+    margin: 0 auto;
+  }
+  .container-third2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     margin: 0 auto;
   }
   .container-60 {
