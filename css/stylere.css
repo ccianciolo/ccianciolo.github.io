@@ -37,6 +37,9 @@ q:before, q:after {
   content: '';
   content: none;
 }
+.width-50 {
+  width: 100%
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -75,7 +78,6 @@ html {
   padding-bottom: 2rem;
 }
 .container-3 {
-  width: 75%;
   display: grid;
   grid-gap: 5rem;
   grid-template-columns: 1fr;
@@ -101,9 +103,9 @@ html {
   background-color: #12344B;
 }
 .container-index-darkBlue {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #034AA6;
   height: 100vh;
 }
@@ -118,8 +120,6 @@ html {
 }
 .container-60-index {
   width: 90%;
-  margin: 0 auto;
-  margin-top: 20vh;
 }
 .content {
   font-family: 'Montserrat';
@@ -412,26 +412,37 @@ h1 {
   font-size: 2.65rem;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
-  line-height: 120%;
 }
 .large-text {
-  font-size: 3.8rem;
-  letter-spacing: .5rem;
+  font-size: 5rem;
+  line-height: 100%;
 }
 .medium-intro {
   font-size: 2.8rem;
 }
 .dr-color {
   background-color: #12344B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .pandora-color {
   background-color: #2D56CC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logos-color {
   background-color: #034AA6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .topspin-color {
   background-color: #41568D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .h1-dr {
   color:#ffffff;
@@ -442,10 +453,12 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-size: 2.843rem;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2px;
   line-height: 120%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 h4 {
   font-size: 3.6rem;
@@ -1071,6 +1084,9 @@ form {
     width: 75%;
     padding-top: 12rem;
   }
+  .width-50 {
+    width: 50%
+  }
   .sectionlabel {
     font-family: 'Montserrat';
     font-style: normal;
@@ -1093,15 +1109,21 @@ form {
     font-weight: bolder;
     font-size: 4.2rem;
   }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
   .container-90 {
     margin-top: 10rem;
   }
   .container-90-index {
-    margin-top: 15rem;
+    align-items: center;
+    justify-content: center;
   }
   .large-text {
     font-size: 6.0rem;
-    letter-spacing: .75rem;
+    line-height: 100%;
   }
   .line-height-100 {
     line-height: 100px;
@@ -1110,7 +1132,6 @@ form {
     font-size: 4.2rem;
   }
   .container-index-darkBlue {
-    height: 100vh;
     padding-top: 0vh;
   }
   .container-top {
@@ -1130,37 +1151,45 @@ form {
   }
   .dr-color {
     background-color: #12344B;
+    height: 95vh;
     padding-top: 5rem;
-    height: 830px;
   }
   .topspin-color {
     background-color: #41568D;
     padding-top: 5rem;
-    height: 830px;
+    height: 95vh;
   }
   .pandora-color {
     background-color: #2D56CC;
+    height: 95vh;
     padding-top: 5rem;
-    height: 830px;
   }
   .logos-color {
     background-color: #034AA6;
     padding-top: 5rem;
-    height: 830px;
+    height: 95vh;
   }
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
-    width: 75%;
     align-items: center;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .container-3-left {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
   }
   .container-2third {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 2fr;
     margin: 0 auto;
   }
   .container-third2 {
-    display: grid;
+    display: flex;
     grid-template-columns: 2fr 1fr;
     margin: 0 auto;
   }
@@ -1168,8 +1197,7 @@ form {
     width: 60%;
   }
   .container-60-index {
-    width: 60%;
-    margin-top: 25rem;
+    width: 40%;
   }
   .container-bottom {
     width: 50%;
@@ -1313,10 +1341,11 @@ form {
     font-size: 5rem;
   }
   h2 {
-    font-size: 5rem;
+    font-size: 3rem;
+    margin-top: 40px;
   }
   .topnav {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
   }
   .headerTitle {
     font-size: 3.79rem;
@@ -1327,7 +1356,6 @@ form {
   }
   .headerTitle-designReads {
     font-size: 3.79rem;
-    padding-top: 5rem;
   }
   .headerTitle-logos {
     font-size: 3.79rem;
@@ -1400,9 +1428,44 @@ form {
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
   }
+  .width-50 {
+    width: 50%
+  }
+  .container-90-index {
+    margin-top: 15rem;
+  }
+  .container-60-index {
+    width: 40%;
+  }
+  .container-2third {
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+  }
+  .container-third2 {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+  }
+  .dr-color {
+    background-color: #12344B;
+    height: 95vh;
+  }
+  .topspin-color {
+    background-color: #41568D;
+    height: 95vh;
+  }
+  .pandora-color {
+    background-color: #2D56CC;
+    height: 95vh;
+  }
+  .logos-color {
+    background-color: #034AA6;
+    height: 95vh;
+  }
   .large-text {
-    font-size: 6.0rem;
-    letter-spacing: .75rem;
+    font-size: 5.0rem;
+    line-height: 100%;
   }
   .medium-intro {
     font-size: 4.0rem;
@@ -1410,7 +1473,16 @@ form {
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
-    width: 75%;
+    width: 100%;
+    margin-left: 50px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-social {
+    display: flex;
+    justify-content: center;
   }
   .xwing-img{
     width: 40%;
@@ -1452,8 +1524,6 @@ form {
   }
   .intro__content {
     width: 100%;
-    padding-left: 10rem;
-    padding-right: 10rem;
   }
   .img-right {
     padding-right: 3rem;
