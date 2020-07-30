@@ -79,7 +79,7 @@ html {
 }
 .container-3 {
   display: grid;
-  grid-gap: 5rem;
+  grid-gap: 2rem;
   grid-template-columns: 1fr;
   margin: 0 auto;
   padding-top: 2rem;
@@ -1472,7 +1472,7 @@ form {
   }
   .container-3 {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5rem;
+    grid-gap: 2rem;
     width: 100%;
     margin-left: 50px;
   }
