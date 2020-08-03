@@ -128,7 +128,7 @@ html {
 .container-60 {
   width: 85%;
   margin: 0 auto;
-  padding-bottom: 3rem;
+  padding-bottom: 15px;
 }
 .container-80 {
   width: 80%;
@@ -142,7 +142,7 @@ html {
   font-family: 'Montserrat';
   font-size: 1.8rem;
   line-height: 2.8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 10px;
 }
 .content-index {
   font-family: 'Montserrat';
@@ -158,9 +158,9 @@ html {
 }
 .mainlabel {
   font-family: 'Montserrat';
-  font-size: 3.0rem;
-  line-height: 2.8rem;
+  font-size: 2.0rem;
   letter-spacing: .4rem;
+  text-transform: uppercase;
 }
 .card {
   /* Add shadows to create the "card" effect */
@@ -1216,14 +1216,12 @@ form {
     grid-gap: 5rem;
     align-items: center;
     width: 100%;
-    margin-left: 50px;
   }
   .container-3-comp {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5rem;
     align-items: center;
     width: 100%;
-    margin-left: 50px;
   }
   .container-3-left {
     grid-template-columns: 1fr 1fr 1fr;
@@ -1524,13 +1522,11 @@ form {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
     width: 100%;
-    margin-left: 50px;
   }
   .container-3-comp {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
     width: 100%;
-    margin-left: 50px;
   }
   .container {
     display: flex;
