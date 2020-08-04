@@ -1124,6 +1124,9 @@ form {
     width: 75%;
     padding-top: 12rem;
   }
+  .sectionlabel-index {
+    padding-top: 0;
+  }
   .div3 {
     display: block;
   }
@@ -1216,6 +1219,9 @@ form {
     grid-gap: 5rem;
     align-items: center;
     width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3rem;
   }
   .container-3-comp {
     grid-template-columns: 1fr 1fr 1fr;
@@ -1473,6 +1479,9 @@ form {
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
   }
+  .sectionlabel-index {
+    padding-top: 0;
+  }
   .div3 {
     display: block;
   }
@@ -1522,6 +1531,7 @@ form {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2rem;
     width: 100%;
+    padding-left: 3rem;
   }
   .container-3-comp {
     grid-template-columns: 1fr 1fr 1fr;
