@@ -39,6 +39,7 @@ q:before, q:after {
 }
 .width-50 {
   width: 100%;
+  padding-right: 0px;
 }
 table {
   border-collapse: collapse;
@@ -1171,7 +1172,7 @@ form {
   }
   .width-50 {
     width: 50%;
-    margin-right: 30px;
+    padding-right: 30px;
   }
   .sectionlabel {
     font-family: 'Montserrat';
@@ -1551,7 +1552,7 @@ form {
   }
   .width-50 {
     width: 50%;
-    margin-right: 30px;
+    padding-right: 30px;
   }
   .container-90-index {
     margin: 100px 0;
