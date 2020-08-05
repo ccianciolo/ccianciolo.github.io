@@ -24,6 +24,7 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/stylere.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 <link rel="stylesheet" href="/animations.css" type="text/css">
 <script src="https://kit.fontawesome.com/d3ce223b9a.js"></script>
@@ -62,10 +63,10 @@
 		</div>
 	</section>
 	<!-- Section Design Reads  -->
-	<section class="dr-color" "wow tada" id="section-next">
+	<section class="dr-color" id="section-next">
 		<section class="container-90-index">
 			<section class="container-2third">
-				<div class="headerTitle-designReads white width-50" data-aos="fade-up" data-aos-duration="2000">
+				<div data-aos="fade-up" class="headerTitle-designReads white width-50">
 					<h3 class="sectionlabel-index white">DesignReads
 					</h3>
 					<h2 class="sectionlabel-smaller white"><strong>Product Design & Project Management</strong></h2>
@@ -73,13 +74,13 @@
 					<a  href="designreads2.html" class="butn butn--orange">View Case Study</a>
 				</div>
 				<div class="container-3">
-					<div>
+					<div data-aos="zoom-in-left" data-aos-duration="1500">
 						<img src="images/hifidash1.png" alt="DesignReads HomeScreen">
 					</div>
-					<div>
+					<div data-aos="zoom-in-left" data-aos-duration="1500">
 						<img src="images/hifidash4.png" alt="DesignReads Dashboard">
 					</div>
-					<div class="div3">
+					<div data-aos="zoom-in-left" data-aos-duration="1500"class="div3">
 						<img src="images/hifi-reviews.png" alt="DesignReads Reviews">
 					</div>
 				</div>
@@ -198,8 +199,12 @@
 				</div>
 			</div>
 		</div>
-		<div class= "f-img"><img class="f-img" src="images/PeekFace.png" alt="Peeking">
+		<div class= "f-img"><img class="f-img animate__animated animate__zoomInUp" src="images/PeekFace.png" alt="Peeking">
 		</div>
 	</footer>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
 </body>
 </html>
