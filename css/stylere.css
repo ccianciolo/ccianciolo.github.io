@@ -115,6 +115,14 @@ html {
   grid-template-columns: 1fr;
   background-color: #12344B;
 }
+.container-top-drp {
+  margin: 0 auto;
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #2D56CC;
+  margin-bottom: 25px;
+}
 .container-index-darkBlue {
   display: flex;
   justify-content: center;
@@ -129,11 +137,16 @@ html {
   width: 85%;
   margin: 0 auto;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 .container-80 {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+.container-80-p {
+  width: 80%;
+  margin: 0 auto;
 }
 .container-60-index {
   width: 90%;
@@ -155,12 +168,14 @@ html {
   font-family: 'Montserrat';
   font-size: 1.8rem;
   line-height: 2.8rem;
+  margin-top: 3rem;
 }
 .mainlabel {
   font-family: 'Montserrat';
   font-size: 2.0rem;
   letter-spacing: .4rem;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 .card {
   /* Add shadows to create the "card" effect */
@@ -492,6 +507,14 @@ h1 {
   line-height: 120%;
   text-align: center;
 }
+.h1-p {
+  color:#ffffff;
+  font-size: 4.0rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 120%;
+  margin-top: 50px;
+}
 h2 {
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
@@ -566,7 +589,7 @@ h6 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-decoration: none;
-  width: 15rem;
+  width: fit-content;
 }
 .butn:hover {
   background-color: transparent;
@@ -592,7 +615,7 @@ h6 {
 }
 .btn-dr {
   background-color: white;
-  border: 2px solid #12344B;
+  border: 2px solid orange;
   border-radius: 2px;
   color: #12344B;
   cursor: pointer;
@@ -603,7 +626,7 @@ h6 {
   padding: 10px 41px;
 }
 .btn-dr:hover {
-  background-color: #12344B;
+  background-color: orange;
   color: white;
 }
 .btn:hover {
@@ -1188,6 +1211,11 @@ form {
     padding-top: 12rem;
     padding-bottom: 8rem;
   }
+  .container-top-drp {
+    margin: 0 auto;
+    padding-top: 12rem;
+    margin-bottom: 50px;
+  }
   .container-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5rem;
@@ -1196,6 +1224,12 @@ form {
   .container-2 {
     width: 70%;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
+  .container-1 {
+    width: 70%;
+    grid-template-columns: 1fr;
+    align-items: center;
     grid-gap: 5rem;
   }
   .dr-color {
@@ -1221,7 +1255,6 @@ form {
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 3rem;
   }
   .container-3-comp {
     grid-template-columns: 1fr 1fr 1fr;
