@@ -724,6 +724,7 @@ h6 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 20vh;
   font-size: 18px;
   padding: 2rem;
 }
@@ -1610,10 +1611,6 @@ form {
   }
   .container {
     display: flex;
-    justify-content: space-between;
-  }
-  .container-social {
-    display: block;
     justify-content: space-between;
   }
   .xwing-img{
