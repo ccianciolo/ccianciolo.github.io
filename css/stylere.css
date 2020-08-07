@@ -41,6 +41,10 @@ q:before, q:after {
   width: 100%;
   padding-right: 0px;
 }
+.width-50-dr {
+  width: 100%;
+  padding-right: 0px;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -79,8 +83,29 @@ html {
   padding-bottom: 2rem;
   grid-gap: 2rem;
 }
+.container-4-dr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  grid-gap: 2rem;
+}
 .container-3 {
   display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  align-items: center;
+}
+.container-3-dr {
+  display: grid;
+  position: relative;
+  float: left;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
@@ -106,6 +131,13 @@ html {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.container-2-dr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -149,6 +181,8 @@ html {
   padding-bottom: 15px;
   padding-top: 15px;
 }
+.container-third2-dr {
+}
 .container-80 {
   width: 80%;
   margin: 0 auto;
@@ -164,6 +198,12 @@ html {
 .content {
   font-family: 'Montserrat';
   font-size: 1.8rem;
+  line-height: 2.8rem;
+  padding-bottom: 10px;
+}
+.caption {
+  font-family: 'Montserrat';
+  font-size: 14px;
   line-height: 2.8rem;
   padding-bottom: 10px;
 }
@@ -266,6 +306,9 @@ html {
 .about-img{
   width: 100%;
   padding-bottom: 2rem;
+}
+.padding {
+  padding-top: 30px;
 }
 .xwing-img{
   width: 70%;
@@ -538,7 +581,8 @@ h4 {
   letter-spacing: -0.055em;
 }
 h5 {
-  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 h6 {
   color:#12344B;
@@ -721,6 +765,10 @@ h6 {
 .center {
   justify-content: center;
   align-self: center;
+  text-align: center;
+}
+.centered {
+  justify-content: center;
   text-align: center;
 }
 .footercontent {
@@ -1174,6 +1222,10 @@ form {
     width: 50%;
     padding-right: 30px;
   }
+  .width-50-dr {
+    width: 50%;
+    padding-right: 30px;
+  }
   .sectionlabel {
     font-family: 'Montserrat';
     font-style: normal;
@@ -1204,7 +1256,7 @@ form {
     justify-content: space-between;
   }
   .container-90 {
-    margin-top: 10rem;
+    margin-top: 30px;
   }
   .container-90-index {
     align-items: center;
@@ -1239,8 +1291,19 @@ form {
     grid-gap: 5rem;
     width: 80%;
   }
+  .container-4-dr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    width: 80%;
+  }
   .container-2 {
     width: 60%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
+  .container-2-dr {
+    width: 100%;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
   }
@@ -1298,19 +1361,27 @@ form {
     justify-content: space-between;
   }
   .container-2third-case {
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 0 auto;
     justify-content: space-between;
-    align-items: center;
+    padding: 20px 0px 20px 0px;
   }
   .container-third2 {
     display: flex;
     grid-template-columns: 2fr 1fr;
     margin: 0 auto;
   }
+  .container-third2-dr {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+  }
   .container-60 {
     width: 60%;
+    padding: 0;
   }
   .container-60-index {
     width: 40%;
