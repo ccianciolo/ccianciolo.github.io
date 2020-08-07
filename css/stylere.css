@@ -1258,7 +1258,7 @@ form {
     font-family: 'Montserrat';
     font-style: normal;
     letter-spacing: 2px;
-    font-size: 2.2rem;
+    font-size: 16px;
   }
   .weight {
     font-weight: bolder;
@@ -1380,8 +1380,9 @@ form {
   }
   .container-2third-case {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     margin: 0 auto;
+    grid-gap: 50px;
     justify-content: space-between;
     padding: 20px 0px 20px 0px;
   }
@@ -1546,7 +1547,7 @@ form {
     font-size: 5rem;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 16px;
   }
   .topnav {
     font-size: 1.6rem;
