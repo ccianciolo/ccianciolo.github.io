@@ -165,6 +165,14 @@ html {
   background-color: #2D56CC;
   margin-bottom: 25px;
 }
+.container-top-pandora {
+  margin: 0 auto;
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #2D56CC;
+  margin-bottom: 25px;
+}
 .container-index-darkBlue {
   display: flex;
   justify-content: center;
@@ -566,7 +574,10 @@ h1 {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   line-height: 120%;
-  margin-top: 50px;
+  margin: 10px 0px 50px 0px;
+}
+.marg-50 {
+  margin-bottom: 20px;
 }
 h2 {
   font-weight: 400;
@@ -1206,6 +1217,9 @@ form {
     width: 75%;
     padding-top: 12rem;
   }
+  .marg-50 {
+    margin-bottom: 40px;
+  }
   .f-img {
     display: -webkit-flex;
     height: 100%;
@@ -1277,7 +1291,6 @@ form {
     padding-top: 0vh;
   }
   .container-top {
-    margin: 0 auto;
     padding-top: 12rem;
     padding-bottom: 8rem;
   }
@@ -1285,6 +1298,11 @@ form {
     margin: 0 auto;
     padding-top: 12rem;
     margin-bottom: 50px;
+  }
+  .container-top-pandora {
+    margin: 0 auto;
+    padding-top: 12rem;
+    padding-bottom: 50px;
   }
   .container-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1614,6 +1632,9 @@ form {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
+  }
+  .marg-50 {
+    margin-bottom: 50px;
   }
   .sectionlabel-index {
     padding-top: 0;
