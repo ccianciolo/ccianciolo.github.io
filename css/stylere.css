@@ -134,6 +134,18 @@ html {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.container-2-case {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.left {
+display: flex;
+justify-content: flex-end;
+}
 .container-2-dr {
   width: 100%;
   display: grid;
@@ -1319,6 +1331,11 @@ form {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
   }
+  .container-2-case {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
   .container-2-dr {
     width: 100%;
     display: grid;
@@ -1371,6 +1388,9 @@ form {
     display: flex;
     grid-template-columns: 1fr 2fr;
     margin: 0 auto;
+    grid-gap: 50px;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
   }
   .container-2third-foot {
     display: grid;
@@ -1378,9 +1398,17 @@ form {
     margin: 0 auto;
     justify-content: space-between;
   }
-  .container-2third-case {
+  .container-1fifth-case {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    margin: 0 auto;
+    grid-gap: 50px;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+  }
+  .container-2third-case {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     margin: 0 auto;
     grid-gap: 50px;
     justify-content: space-between;
@@ -1530,10 +1558,6 @@ form {
   }
   .img-center {
     align-items: center;
-  }
-  .left {
-    padding-left: 18rem;
-    padding-top: 5rem;
   }
   .par {
     font-size: 2.133rem;
@@ -1772,10 +1796,6 @@ form {
   }
   .img-center {
     align-self: center;
-  }
-  .left {
-    padding-left: 20rem;
-    padding-top: 5rem;
   }
   .img-right {
     padding-left: 10rem;
