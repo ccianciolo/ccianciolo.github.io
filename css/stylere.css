@@ -486,24 +486,28 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+    padding: 20px 0px 20px 0px;
+  }
 .pandora-color {
   background-color: #034AA6;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 0px 20px 0px;
 }
 .logos-color {
   background-color: #034AA6;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 0px 20px 0px;
 }
 .topspin-color {
   background-color: #12344B;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 0px 20px 0px;
 }
 .h1-dr {
   color:#ffffff;
@@ -581,7 +585,7 @@ h6 {
 }
 /*Buttons*/
 .butn {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   vertical-align: middle;
   text-align: center;
@@ -724,9 +728,8 @@ h6 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 20vh;
   font-size: 18px;
-  padding: 2rem;
+  padding: 20px 20px 0px 20px;
 }
 .strFoot {
   width: 100%;
@@ -741,19 +744,19 @@ h6 {
   justify-content: center;
   align-content: flex-start;
   height: 32.5px;
-  padding: 10px;
+  padding: 20px 10px 20px 10px;
 }
 .f-img {
-  align-self: center;
-  width: 3.6rem;
-  height: 4rem;
-  margin-top: 14px;
+  display: -webkit-flex;
+  height: 100%;
+  -webkit-align-items: flex-end;
+  -webkit-justify-content: center;
 }
 .fp {
   align-content: center;
   display: inline-block;
   font-size: 1.2rem;
-  width: 25rem;
+  padding: 20px 0px 20px 0px;
 }
 .f1 {
   display: flex;
@@ -787,10 +790,6 @@ h6 {
   font-weight: 400;
   line-height: 160%;
   letter-spacing: -0.032em;
-}
-.fp {
-  font-size: 1.2rem;
-  width: 100%;
 }
 /* Case Study Style */
 .welcome {
@@ -1160,10 +1159,10 @@ form {
     padding-top: 12rem;
   }
   .f-img {
-    align-self: center;
-    width: 3.6rem;
-    height: 4rem;
-    margin-top: 10px;
+    display: -webkit-flex;
+    height: 100%;
+    -webkit-align-items: flex-end;
+    -webkit-justify-content: center;
   }
   .sectionlabel-index {
     padding-top: 0;
@@ -1499,7 +1498,7 @@ form {
   }
   .footercontent {
     font-size: 18px;
-    padding: 10px;
+    padding: 30px 30px 0px 30px;
   }
   .par-case {
     font-size: 2.133rem;
@@ -1671,6 +1670,7 @@ form {
   .fp {
     font-size: 1.6rem;
     width: 100%;
+    padding: 30px 0px 30px 0px;
   }
   .right {
     justify-content: flex-end;
