@@ -152,6 +152,7 @@ justify-content: flex-end;
   grid-template-columns: 1fr;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  grid-gap: 20px;
 }
 .container-top {
   margin: 0 auto;
@@ -207,6 +208,7 @@ justify-content: flex-end;
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 20px;
 }
 .container-80-p {
   width: 80%;
@@ -1229,6 +1231,14 @@ form {
     width: 75%;
     padding-top: 12rem;
   }
+  .container-top-pro {
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #12344B;
+  }
   .marg-50 {
     margin-bottom: 40px;
   }
@@ -1657,6 +1667,14 @@ form {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
+  }
+  .container-top-pro {
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #12344B;
   }
   .marg-50 {
     margin-bottom: 50px;
