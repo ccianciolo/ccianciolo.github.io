@@ -156,8 +156,7 @@ justify-content: flex-end;
 }
 .container-top {
   margin: 0 auto;
-  padding-top: 12rem;
-  padding-bottom: 5rem;
+  padding-top: 75px;
   display: grid;
   grid-template-columns: 1fr;
   background-color: #12344B;
@@ -245,7 +244,7 @@ justify-content: flex-end;
   font-size: 2.0rem;
   letter-spacing: .4rem;
   text-transform: uppercase;
-  margin-top: 1rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
 .card {
   /* Add shadows to create the "card" effect */
@@ -1312,8 +1311,6 @@ form {
     padding-top: 0vh;
   }
   .container-top {
-    padding-top: 12rem;
-    padding-bottom: 8rem;
   }
   .container-top-drp {
     margin: 0 auto;
