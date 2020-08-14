@@ -168,7 +168,6 @@ justify-content: flex-end;
   margin-bottom: 25px;
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #12344B;
 }
 .container-top-drp {
   margin: 0 auto;
@@ -198,9 +197,7 @@ justify-content: flex-end;
 }
 .container-60 {
   width: 85%;
-  margin: 0 auto;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  margin: 1rem auto;
 }
 .container-third2-dr {
 }
@@ -208,8 +205,9 @@ justify-content: flex-end;
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 20px;
+  margin: 1rem auto;
 }
+
 .container-80-p {
   width: 80%;
   margin: 0 auto;
@@ -575,7 +573,6 @@ h1 {
   padding: 20px 0px 20px 0px;
 }
 .h1-dr {
-  color:#ffffff;
   font-size: 4.0rem;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -701,8 +698,11 @@ h6 {
   font-size: 1.6rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  margin-top: 4rem;
   padding: 10px 41px;
+  margin: 2rem 0;
+}
+.competition {
+  margin-top: .5rem;
 }
 .btn-dr:hover {
   background-color: orange;
@@ -1233,11 +1233,12 @@ form {
   }
   .container-top-pro {
     margin: 0 auto;
-    padding-top: 100px;
     margin-bottom: 25px;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #12344B;
+  }
+  .competition {
+    margin-top: .5rem;
   }
   .marg-50 {
     margin-bottom: 40px;
@@ -1259,7 +1260,7 @@ form {
     padding-right: 30px;
   }
   .width-50-dr {
-    width: 50%;
+    width: 70%;
     padding-right: 30px;
   }
   .sectionlabel {
@@ -1268,8 +1269,6 @@ form {
     font-weight: bold;
     font-size: 2.8rem;
     line-height: 4.0rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
   }
   .content-index {
     font-family: 'Montserrat';
@@ -1292,7 +1291,7 @@ form {
     justify-content: space-between;
   }
   .container-90 {
-    margin-top: 30px;
+    margin: 30px auto;
   }
   .container-90-index {
     align-items: center;
@@ -1334,7 +1333,6 @@ form {
   .container-4-dr {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5rem;
-    width: 80%;
   }
   .container-2 {
     width: 60%;
@@ -1414,7 +1412,7 @@ form {
     margin: 0 auto;
     grid-gap: 50px;
     justify-content: space-between;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
   }
   .container-2third-case {
     display: grid;
@@ -1439,9 +1437,14 @@ form {
   .container-60 {
     width: 60%;
     padding: 0;
+    margin: 2rem auto;
+  }
+  .container-80 {
+    width: 80%;
+    margin: 2rem auto;
   }
   .container-60-index {
-    width: 40%;
+    max-width: 600px;
   }
   .container-bottom {
     width: 50%;
@@ -1668,13 +1671,62 @@ form {
     grid-template-columns: 1fr 2fr;
     padding-top: 2.5rem
   }
+  .competition {
+    margin-top: 1rem;
+  }
+  .container-2-dr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
+  .container-2third-case {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    grid-gap: 50px;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+  }
+  .container-2-case {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
+  .width-50-dr {
+    width: 70%;
+    padding-right: 30px;
+  }
+  .container-1fifth-case {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0 auto;
+    grid-gap: 50px;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+  }
   .container-top-pro {
     margin: 0 auto;
-    padding-top: 100px;
     margin-bottom: 25px;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #12344B;
+  }
+  .container-4-dr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    width: 100%;
+  }
+  .container-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 80%;
+  }
+  .container-third2-dr {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
   }
   .marg-50 {
     margin-bottom: 50px;
@@ -1693,7 +1745,7 @@ form {
     margin: 100px 0;
   }
   .container-60-index {
-    width: 40%;
+    max-width: 600px;
   }
   .container-2third {
     display: flex;
