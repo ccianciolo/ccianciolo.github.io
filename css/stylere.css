@@ -161,6 +161,14 @@ justify-content: flex-end;
   grid-template-columns: 1fr;
   background-color: #12344B;
 }
+.container-top-topspin {
+  margin: 0 auto;
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 25px;
+  background-color: #3C9848;
+}
 .container-top-pro {
   margin: 0 auto;
   padding-top: 75px;
@@ -1236,6 +1244,7 @@ form {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .competition {
     margin-top: .5rem;
   }
@@ -1318,6 +1327,11 @@ form {
     margin-bottom: 50px;
   }
   .container-top-pandora {
+    margin: 0 auto;
+    padding-top: 12rem;
+    padding-bottom: 50px;
+  }
+  .container-top-topspin {
     margin: 0 auto;
     padding-top: 12rem;
     padding-bottom: 50px;
