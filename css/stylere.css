@@ -803,6 +803,7 @@ h6 {
   align-self: center;
   text-align: center;
 }
+/* Comment to cause change for recognition in specific browsers */
 .centered {
   justify-content: center;
   text-align: center;
