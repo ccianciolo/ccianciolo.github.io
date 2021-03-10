@@ -799,6 +799,10 @@ h6 {
   align-self: center;
   text-align: center;
 }
+.centerM {
+  align-self: center;
+  text-align: center;
+}
 .centered {
   justify-content: center;
   text-align: center;
